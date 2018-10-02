@@ -1,0 +1,34 @@
+{
+  "name": "template_bootstrap_webpack",
+  "version": "1.0.0",
+  "description": "Template para projetos utilizando Bootstrap 4 e Webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --watch --mode development",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "keywords": [],
+  "author": "Dion Maicon E. Duarte <dionmaicon@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  }
+}
